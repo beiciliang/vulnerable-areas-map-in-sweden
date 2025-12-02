@@ -1,0 +1,15 @@
+# Local configuration file with sensitive data
+config.js
+*.geojson
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+

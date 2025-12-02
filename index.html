@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweden Vulnerable Areas Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="header-text">
+                    <h1>Sweden Vulnerable Areas Map</h1>
+                    <p>
+                        Based on the geojson data published on
+                        <a href="https://polisen.se/om-polisen/polisens-arbete/utsatta-omraden/"
+                           target="_blank"
+                           rel="noopener noreferrer">polisen.se</a>
+                        in December 2025
+                    </p>
+                </div>
+                <div id="legend" class="legend"></div>
+            </div>
+        </header>
+
+        <div id="map"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/proj4@2.8.0/dist/proj4.js"></script>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
