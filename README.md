@@ -2,6 +2,8 @@
 
 A simple web application for visualizing vulnerable areas in Sweden based on official geojson data from the Swedish Police published on December 2025.
 
+![Screenshot](screenshot.jpg)
+
 ## Features
 
 - **Display Vulnerable Areas**: Automatically loads and displays official vulnerable areas from the GeoJSON file
